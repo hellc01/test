@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo_Parse_User</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Demo_Parse_User references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/lib/parse-1.2.12.js"></script>
+    <script src="/lib/jquery-1.8.2.js"></script>
+    <script src="/js/models/BodeeFitUser.js"></script>
+    <script src="/js/models/Test.js"></script>
+</head>
+<body>
+    <div>
+        <h2>sign up</h2>
+        username:<input id="username" /><br>
+        password:<input id="password" /><br>
+	    <button id="createUser">sign up</button>
+    </div>
+    
+	<div>
+		<h2>Login</h2>
+		username:<input id="username_login" /><br>
+		password:<input id="password_login" /><br>
+		<button id="login" >login</button>
+	</div>
+
+    <div>
+        <h2>current user</h2>
+        <button id="currentUser">currentUser</button>
+    </div>
+
+    <div>
+        <button id="logout">logout</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div>
+        <button id="saveObject">save an object</button>
+    </div>
+</body>
+</html>
