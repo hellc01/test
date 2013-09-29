@@ -83,6 +83,7 @@
         var password = $("#password_login").val();
 
 
+
         Parse.User.logIn(username, password, {
             success: function (user) {
                 var msg = new Windows.UI.Popups.MessageDialog("login success! username is " + user.get("username"));
